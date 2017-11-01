@@ -1,0 +1,20 @@
+.animation{
+    width: 500px;
+    height: 150px;
+    z-index: 999;
+    position: absolute;
+    background-image: url(../images/landingframesupdated_sm_copy.png);
+    margin-left: 5%;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    animation: ani-move 10s steps(27) infinite;
+}
+
+@keyframes ani-move {
+    from{
+        background-position: 0
+    }
+    to{
+        backgroud-position: 0 -4000px
+    }
+}

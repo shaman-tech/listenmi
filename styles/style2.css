@@ -1,0 +1,25 @@
+.land{
+  width: 800px;
+  height:1300px;
+
+  background-image: url('images/landingframesupdated.png');
+background-size: 100%, 100%;
+/*background-position: left;*/
+background-repeat:no-repeat;
+
+/*animation-name: land-ground;
+animation-duration: 1.3s;
+animation-timing-function: steps(5);
+animation-iteration-count: infinite;*/
+}
+
+/*@keyframes land-ground {
+from {
+  background-position: left;
+}
+to {
+  background-position: right;
+}
+}*/
+
+}

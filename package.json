@@ -1,0 +1,24 @@
+{
+  "name": "sprite",
+  "version": "5.4.1",
+  "description": "Sprite animation application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest"
+  },
+  "keywords": [
+    "any",
+    "keyword"
+  ],
+  "author": "Peter",
+  "license": "ISC"
+}

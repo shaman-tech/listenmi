@@ -1,23 +1,39 @@
-.animation{
-    width: 500px;
-    height: 150px;
+.animation_wrapper{
+    width: 150px;
+    height: 450px;
     z-index: 999;
+    background-color: none;
     position: absolute;
-    background-image: url(../images/landingframesupdated_sm_copy.png);
+    overflow: hidden;
+    margin: auto;
+    top: 250px;
+    left: 17.5%;
+    border-top-right-radius: 250px;
+ 
+}
+.animation{
+    width: 3600%;
+    height: 100%;
+    z-index: 999;
+    position: relative;
+    left: 50px;
+    top:0;
+    background-image: url(../images/anime2.png);
     margin-left: 5%;
     background-repeat: no-repeat;
-    background-size: 1500px;
-    animation: ani-move 5s steps(27) infinite;
+    background-size: 10000px;
+    animation: ani-move 2.0s steps(35) infinite;
+    animation-fill-mode: forwards;
     // animation: ani-movediv;
 
 }
 
 @keyframes ani-move {
     from{
-        background-position: 0;
+        transform: translateX(0);
     }
     to{
-        background-position: -1500px 0;
+        transform: translateX(-97.2222222%);
     }
 }
 
@@ -28,4 +44,4 @@
 //     to{
 //         -ms-transform-origin-y: -4000px;
 //     }
-}
+//}

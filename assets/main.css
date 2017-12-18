@@ -1,13 +1,13 @@
 .animation_wrapper {
-  width: 150px;
-  height: 450px;
+  width: 220px;
+  height: 650px;
   z-index: 999;
   background-color: none;
   position: absolute;
   overflow: hidden;
   margin: auto;
-  top: 250px;
-  left: 17.5%;
+  top: 200px;
+  left: 16.9%;
   border-top-right-radius: 250px; }
 
 .animation {
@@ -17,15 +17,15 @@
   position: relative;
   left: 50px;
   top: 0;
-  background-image: url(../images/anime2.png);
+  background-image: url(../images/landing-alien.png);
   margin-left: 5%;
   background-repeat: no-repeat;
-  background-size: 10000px;
-  animation: ani-move 2s steps(35) infinite;
+  background-size: 8020px;
+  animation: ani-move 3s steps(35);
   animation-fill-mode: forwards; }
 
 @keyframes ani-move {
   from {
-    transform: translateX(0); }
+    transform: translateX(-2%); }
   to {
     transform: translateX(-97.22222%); } }

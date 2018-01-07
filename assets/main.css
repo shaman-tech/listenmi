@@ -22,6 +22,7 @@
   background-repeat: no-repeat;
   background-size: 8020px;
   animation: ani-move 2.5s steps(29);
+  animation-delay: 1s;
   animation-fill-mode: forwards; }
 
 @keyframes ani-move {

@@ -1,5 +1,5 @@
 .animation_wrapper {
-    width: 300px;
+    width: 350px;
     height: 950px;
     z-index: 999;
     background-color: none;
@@ -23,8 +23,8 @@
     margin-left: 5%;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: 299px;
-    animation: ani-move 2.5s steps(35);
+    background-position-y: 217px;
+    animation: ani-move 2.5s steps(35) infinite;
     animation-delay: 1s;
     animation-fill-mode: forwards;
     }

@@ -1,49 +1,37 @@
-.animation_wrapper{
-    width: 220px;
+.animation_wrapper {
+    width: 300px;
     height: 950px;
     z-index: 999;
     background-color: none;
     position: absolute;
     overflow: hidden;
     margin: auto;
-    top: -20%;
-    left: 26%;
+    top: -14.6%;
+    left: 18.4%;
     border-top-right-radius: 250px;
- 
-}
-.animation{
+    border-bottom-left-radius: px;
+    }
+  
+  .animation {
     width: 3600%;
     height: 100%;
     z-index: 999;
     position: relative;
-    left: 59.5%;
+    left: 0;
     top: 0;
-    background-image: url(../images/landing-alien-trial.png);
+    background-image: url(../images/landingframes2.png);
     margin-left: 5%;
     background-repeat: no-repeat;
-    background-size: 8020px;
-    
-    animation: ani-move 2.5s steps(29);
-    animation-delay:1s;
+    background-size: 100%;
+    background-position-y: 299px;
+    animation: ani-move 2.5s steps(35);
+    animation-delay: 1s;
     animation-fill-mode: forwards;
-    // animation: ani-movediv;
-
-}
-
-@keyframes ani-move {
-    from{
-        transform: translateX(-2%);
     }
-    to{
-        transform: translateX(-97.2222222%);
-    }
-}
-
-// @keyfraes ani-movediv {
-//     from{
-//         -ms-transform-origin-y: 0;
-//     }
-//     to{
-//         -ms-transform-origin-y: -4000px;
-//     }
-//}
+  
+  @keyframes ani-move {
+    from {
+      transform: translateX(0); }
+    to {
+      transform: translateX(-97.22222%); } }
+  

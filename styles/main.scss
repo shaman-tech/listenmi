@@ -1,12 +1,12 @@
 .animation_wrapper {
-    width: 350px;
-    height: 950px;
+    width: 28%;
+    height: 100%;
     z-index: 999;
     background-color: none;
     position: absolute;
     overflow: hidden;
     margin: auto;
-    top: -14.6%;
+    top:-13%;
     left: 18.4%;
     border-top-right-radius: 250px;
     border-bottom-left-radius: px;
@@ -23,7 +23,7 @@
     margin-left: 5%;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: 298px;
+    background-position-y: 62%;
     animation: ani-move 2.5s steps(35);
     animation-delay: 1s;
     animation-fill-mode: forwards;
@@ -35,3 +35,7 @@
     to {
       transform: translateX(-97.22222%); } }
   
+  @media only screen  and (min-width: 500px){
+
+    
+  }

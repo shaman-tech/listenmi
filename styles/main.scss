@@ -1,16 +1,53 @@
+
 .animation_wrapper {
-    width: 28%;
-    height: 100%;
-    z-index: 999;
-    background-color: none;
-    position: absolute;
-    overflow: hidden;
-    margin: auto;
-    top:-13%;
-    left: 18.4%;
-    border-top-right-radius: 250px;
-    border-bottom-left-radius: px;
+  width: 28%;
+  height: 100%;
+  z-index: 999;
+  background-color: none;
+  position: absolute;
+  overflow: hidden;
+  margin: auto;
+  top: 16%;
+  left: 18.4%;
+
+  }
+
+
+@media only screen and (min-width:670px) and (max-width:767px){
+  .animation_wrapper{
+    top:11.5%;
+  }
+}
+
+@media only screen and (min-width:767px) and (max-width:820px){
+  .animation_wrapper{
+    top: 12.5%;
+  }
+}
+@media only screen and (min-width: 820px) and (max-width: 900px){
+    .animation_wrapper{
+      top: 13%;
     }
+  }
+
+@media only screen and (min-width: 900px) and (max-width: 1120px){
+  .animation_wrapper{
+    top:14.1%;}
+}
+@media only screen and (min-width: 1120px) and (max-width: 1280px){
+  .animation_wrapper{
+    top: 15%;
+  }
+}
+
+
+
+@media only screen and (min-width:1280px){    
+.animation_wrapper {
+  top:16%;
+
+  }
+}
   
   .animation {
     width: 3600%;
@@ -23,7 +60,6 @@
     margin-left: 5%;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: 62%;
     animation: ani-move 2.5s steps(35);
     animation-delay: 1s;
     animation-fill-mode: forwards;
@@ -35,7 +71,8 @@
     to {
       transform: translateX(-97.22222%); } }
   
-  @media only screen  and (min-width: 500px){
+  @media only screen  and (min-width: 1120px){
+
 
     
   }

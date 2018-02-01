@@ -12,6 +12,16 @@
 
   }
 
+  .dust_wrapper{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 49%;
+    left: -2%;
+    overflow: hidden;
+    z-index: 99999;
+  }
+
 
 @media only screen and (min-width:670px) and (max-width:767px){
   .animation_wrapper{
@@ -49,7 +59,7 @@
   }
 }
   
-  .animation {
+.animation {
     width: 3600%;
     height: 100%;
     z-index: 999;
@@ -64,15 +74,43 @@
     animation-delay: 1s;
     animation-fill-mode: forwards;
     }
+
+
+.dust_anime{
+  width: 1800%;
+  height: 100%;
+  z-index:9999;
+  position: relative;
+  left:0;
+  top:0;
+  background-image: url(../images/dust.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation: dust-appear 2s steps(17);
+  animation-delay: 2.1s;
+  animation-fill-mode: forwards;
+}
   
-  @keyframes ani-move {
+@keyframes ani-move {
     from {
       transform: translateX(0); }
     to {
-      transform: translateX(-97.22222%); } }
+      transform: translateX(-97.22222%); } 
+    }
   
   @media only screen  and (min-width: 1120px){
 
 
     
+  }
+
+  @keyframes dust-appear{
+    from {
+      visibility:hidden;
+      transform: translateX(0);
+    }
+    to {
+      visibility: visible;
+      transform: translateX(-94.444444%);
+    }
   }

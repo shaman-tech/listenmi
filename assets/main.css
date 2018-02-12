@@ -80,11 +80,10 @@
   left: 0;
   top: 0;
   background-image: url(../images/lighta-landing1.4.png);
-  margin-left: 5%;
   background-repeat: no-repeat;
   background-size: 100%;
   animation: ani-move 2.5s steps(28);
-  animation-delay: 1s;
+  animation-delay: 0.3s;
   animation-fill-mode: forwards; }
 
 @keyframes ani-move {

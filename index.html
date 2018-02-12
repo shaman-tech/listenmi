@@ -29,7 +29,12 @@ http://www.tooplate.com/view/2081-solution
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,800' rel='stylesheet' type='text/css'>
 		<!-- custom -->
 		<link rel="stylesheet" href="styles/style.css">
-		<link rel="stylesheet" href="assets/main.css"
+		<link rel="stylesheet" href="assets/main.css">
+		<script>
+		window.onload = function() {
+			document.getElementById('ani').className = 'animation';
+		  };
+		</script>
 
 	</head>
 	<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
@@ -63,20 +68,12 @@ http://www.tooplate.com/view/2081-solution
 		<!-- start home -->
 		<section id="home" class="text-center">
 
-			
-
-		  <div class="templatemo_headerimage landing_bkg">
-				<div class="animation_wrapper">
-						<div class="animation" style="margin: 0 auto;"></div>
-							
-					</div>
-					<div class="dust_wrapper">
-						<div class ="dust_anime"></div>
-					</div>	
-		 
-		   
-		    </div>
-		  </div>				
+			<div class="landing_bkg">	
+			<div class="animation_wrapper ">
+				<div id="ani"></div>
+			</div>
+			</div>
+		 				
 		</section>
 		<!-- end home -->
 
